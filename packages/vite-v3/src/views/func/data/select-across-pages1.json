@@ -1,0 +1,166 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": [
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "376-328-9813",
+      "advertiser_name": "",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "144-477-7358",
+      "advertiser_name": "",
+      "belong_project_id": "c0580ac3edcf4faeb8c6c019b6b644bf1",
+      "belong_project_name": "FB 程序化",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "932-571-2929",
+      "advertiser_name": "test-mcc",
+      "belong_project_id": "c0580ac3edcf4faeb8c6c019b6b644bf1",
+      "belong_project_name": "FB 程序化",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "430-796-4127",
+      "advertiser_name": "test-account",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "0c3157b8f4064a28aac0c4bf462506515",
+      "belong_user_name": "C-普通员工"
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "759-168-3105",
+      "advertiser_name": "test123",
+      "belong_project_id": "c0580ac3edcf4faeb8c6c019b6b644bf1",
+      "belong_project_name": "FB 程序化",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "917-860-1650",
+      "advertiser_name": "test-m1001",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "515-885-3427",
+      "advertiser_name": "11111",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "739-263-1117",
+      "advertiser_name": "test-12345",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "841-476-0433",
+      "advertiser_name": "04/Candy Charming GP",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "422-110-2645",
+      "advertiser_name": "Candy Charming iOS",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "121-036-0900",
+      "advertiser_name": "testAccount",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "133-571-6339",
+      "advertiser_name": "方投广告投放系统 - MCC 经理账号",
+      "belong_project_id": "c0580ac3edcf4faeb8c6c019b6b644bf1",
+      "belong_project_name": "FB 程序化",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "799-908-3291",
+      "advertiser_name": "开发测试经理账号MCC",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "785-752-3262",
+      "advertiser_name": "子MCC下的广告账户",
+      "belong_project_id": "146d9d7026c043ecb0e224f6fd77bed80",
+      "belong_project_name": "008 项目",
+      "belong_user_id": "5980680e307b4329a8907f598c5124925",
+      "belong_user_name": "A-普通员工"
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 2,
+      "advertiser_id": "669-492-4456",
+      "advertiser_name": "MCC下的子MCC账户",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    },
+    {
+      "isAuthorized": false,
+      "advertiser_role": 1,
+      "advertiser_id": "241-038-5766",
+      "advertiser_name": "MCC下的广告账户",
+      "belong_project_id": "6d80b30794a440b89474af2d419666810",
+      "belong_project_name": "007 项目",
+      "belong_user_id": "",
+      "belong_user_name": ""
+    }
+  ]
+}

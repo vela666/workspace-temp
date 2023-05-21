@@ -1,0 +1,15 @@
+@mixin pageSection() {
+  background-color: $color-white;
+  box-shadow: $box-shadow-base;
+  border-radius: $border-radius-base;
+}
+
+@mixin text-truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin no-select() {
+  user-select: none;
+}

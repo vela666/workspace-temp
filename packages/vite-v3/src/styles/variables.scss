@@ -1,0 +1,75 @@
+@import 'mixins';
+
+// 颜色
+$color-white: #fff !default;
+$color-black: #000 !default;
+$fail-color: #F56C6CFF;
+$color-primary: #5473e8 !default; // 主色调
+$color-warning: #ff9f24 !default; // 警告
+$color-error: #f56c6c !default; // 错误
+$color-danger: #ff4d4f !default; // 错误
+
+$color-text-base: #616161 !default; // 文字颜色
+
+// 边框
+$border-color-base: #dedede !default;
+$border-base: 1px solid rgba(0, 0, 0, 0.09);
+$border-bottom-color: #f2f2f2;
+$border: 1px solid rgba(0, 0, 0, 0.09);
+
+// 圆角
+$border-radius-base: 4px !default;
+$border-radius-small: 2px !default;
+
+// 下拉鼠标hover颜色
+$select-hover-color: #ECF0FC;
+
+$color-white: #fff !default;
+$color-black: #000 !default;
+
+$z-index-base: 99 !default;
+
+// 间距
+$spacing: 20px;
+$gutter-base: 24px !default;
+$header-height: 60px !default;
+
+// 阴影
+$box-shadow-base: 0px 0px 6px 0px rgba(28, 39, 80, 0.16) !default;
+// h1~h3
+$h1-text-color: #1f1f1f !default; // 主标题颜色
+$h2-text-color: #616161 !default; // 二级标题颜色
+$h3-text-color: #8a8a8a !default; // 三级标题颜色
+
+// 布局相关
+$z-index-base: 99 !default;
+$spacing-base: 20px !default;
+$gutter-base: 24px !default; // 模块与模块之间的间距
+$header-height-base: 60px !default;
+$footer-height-base: $header-height-base !default;
+$background-color-base: #f3f6ff !default;
+
+$page-spacing-x: $gutter-base !default;
+$page-spacing-y: $spacing-base !default;
+
+$layout-spacing-x: 36px !default;
+$layout-spacing-y: $gutter-base !default;
+
+// layout > LayoutHeaderNav
+$layout-header-nav-height: $header-height-base !default;
+// layout > LayoutHeaderMenu
+$layout-header-menu-height: 40px !default;
+
+// PageCard
+$page-card-spacing-x: $page-spacing-x !default;
+$page-card-spacing-y: $page-spacing-y !default;
+
+$page-card-header-height: $header-height-base !default;
+$page-card-footer-height: $page-card-header-height !default;
+
+// ElTabs
+$tabs-header-bg-color: #f5f7fb !default;
+// 多选和单选按钮
+$button-checked-border-color: #5473e8;
+$button-checked-text-color: #5473e8;
+$button-checked-background-color: #ecf0fd

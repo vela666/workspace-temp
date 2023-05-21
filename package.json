@@ -1,0 +1,36 @@
+{
+  "name": "@vue-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@7.21.0",
+  "scripts": {
+    "dev-desc1": "-r 递归当前目录中所有子目录 启动所有子项目的 dev 命令",
+    "all:dev1": "pnpm -r --parallel dev",
+    "dev-desc2": "启动所有子目录中package.json name有 vite的 dev命令",
+    "all:dev2": "pnpm -r --parallel --filter \"*vite*\" dev",
+    "all:build": "pnpm --parallel -r build",
+    "inject-sub-startup-script": "node ./scripts/inject-sub-startup-script.js",
+    "preinstall": "node ./scripts/preinstall.js",
+    "multi-page-vite-v3:dev": "pnpm --filter multi-page-vite-v3 dev",
+    "multi-page-vite-v3:build": "pnpm --filter multi-page-vite-v3 build",
+    "vite-v3:dev": "pnpm --filter vite-v3 dev",
+    "vite-v3:build": "pnpm --filter vite-v3 build",
+    "vite-v3-ts:dev": "pnpm --filter vite-v3-ts dev",
+    "vite-v3-ts:build": "pnpm --filter vite-v3-ts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "echarts": "^5.4.1",
+    "element-plus": "^2.2.27",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "lodash-es": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "reset.css": "^2.0.2",
+    "sass": "^1.57.1"
+  }
+}

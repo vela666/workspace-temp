@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import "reset.css";
+@import './variables.scss';
+@import './element-plus.scss';
+@import './common.scss';
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 1200px;
+  height: 100%;
+  font: 12px/1.5 Microsoft YaHei, Microsoft YaHei-Regular, sans-serif;
+  color: $h2-text-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+span, div {
+  outline: none;
+}
+
+
+// 重置所有滚动条
+*, div {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background-color: #f8f8f9;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #dcdee2;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+
+// 消息提示框自定样式
+.elMessage-index {
+  z-index: 6666 !important;
+}
+
+/*element表格表头复选框添加全选文字 需要给*/
+// el-table添加该类名 .table-select-all
+// 需要给定90的宽 <el-table-column label="全选" width="90"> </el-table-column>
+/*.table-select-all {
+  .el-table__header {
+    .el-table-column--selection {
+      .cell {
+        .el-checkbox {
+          &:after {
+            color: #1f1f1f;
+            content: "\5168\9009";
+            font-size: 12px;
+            margin-left: 4px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}*/
+
+// 自定义指令创建的文字提示元素样式 超出省略和文字说明样式
+/*.tooltip {
+  background: rgba(0, 0, 0, .6);
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  max-width: 380px;
+  z-index: 5002;
+  display: inline-block;
+  font-size: 12px;
+}*/
+// 元素提示说明
+// 元素提示说明
+/* 当参考元素被完全裁剪并从视图中隐藏时 */
+[data-popper-reference-hidden] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.tooltip {
+  border-radius: 2px;
+  padding: 10px;
+  max-width: 450px;
+  max-height: 285px;
+  z-index: 7777;
+  display: flex;
+  font-size: 12px;
+  color: $h2-text-color;
+  background: $color-white;
+  box-shadow: 0px 3px 6px 0px rgba(28, 39, 80, 0.16);
+
+  .tooltip-overflow {
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overscroll-behavior: none;
+  }
+}
+
+.tooltip-arrow {
+  bottom: -9px;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: $color-white transparent transparent transparent;
+}
+
+// 修改进度条颜色
+#nprogress {
+  .bar {
+    background: $color-primary !important; //自定义颜色
+  }
+
+  .spinner-icon {
+    border-top-color: $color-primary !important;
+    border-left-color: $color-primary !important;
+  }
+
+  .spinner,
+  .bar {
+    z-index: 9999999 !important;
+  }
+}

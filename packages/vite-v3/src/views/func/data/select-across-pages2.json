@@ -1,0 +1,92 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "list": [
+      {
+        "site_id": "7157902596212113445",
+        "name": "FangTou_1666581701228",
+        "status": "2",
+        "thumbnail": "https://sf1-ttcdn-tos.pstatp.com/obj/oneshot/2022102411412855331d065a1670434b02"
+      },
+      {
+        "site_id": "7114128882085576735",
+        "name": "FangTou_1656389132167",
+        "status": "2",
+        "thumbnail": "https://p3-orange.byteorge.com/img/ad-tetris-site/screenshot/86285ed47e2652fc5a675c75b383cb2a~noop.jpeg"
+      },
+      {
+        "site_id": "7097208011286036493",
+        "name": "FangTou_1652451095866",
+        "status": "2",
+        "thumbnail": "https://p6-orange.byteorge.com/img/ad-tetris-site/screenshot/aaab711130ddeba607f89dc2663c8f38~noop.jpeg"
+      },
+      {
+        "site_id": "7088222373929287717",
+        "name": "FangTou_1650356183779",
+        "status": "2",
+        "thumbnail": "https://p3-orange.byteorge.com/img/ad-tetris-site/screenshot/0c23f46cead2c2884455df13b9f390fb~noop.jpeg"
+      },
+      {
+        "site_id": "7040030387956170756",
+        "name": "FangTou_1639136296429",
+        "status": "2",
+        "thumbnail": "https://p3-orange.byteorge.com/img/ad-tetris-site/screenshot/1b18d70878a45353dce6049b9de0e3f9~noop.jpeg"
+      },
+      {
+        "site_id": "7038401266390089735",
+        "name": "FangTou_1638759093314",
+        "status": "2",
+        "thumbnail": "https://p9-orange.byteorge.com/img/ad-tetris-site/screenshot/d2244ba70a44784c41f903a35af66247~noop.jpeg"
+      },
+      {
+        "site_id": "7037353191188480038",
+        "name": "FangTou_1638511644461",
+        "status": "2",
+        "thumbnail": "https://p3-orange.byteorge.com/img/ad-tetris-site/screenshot/1b18d70878a45353dce6049b9de0e3f9~noop.jpeg"
+      },
+      {
+        "site_id": "7037310115041706015",
+        "name": "FangTou_1638504326245",
+        "status": "2",
+        "thumbnail": "https://p3-orange.byteorge.com/img/ad-tetris-site/screenshot/1b18d70878a45353dce6049b9de0e3f9~noop.jpeg"
+      },
+      {
+        "site_id": "7037290789152964644",
+        "name": "FangTou_1638499676464",
+        "status": "2",
+        "thumbnail": "https://p3-orange.byteorge.com/img/ad-tetris-site/screenshot/1b18d70878a45353dce6049b9de0e3f9~noop.jpeg"
+      },
+      {
+        "site_id": "7034021567378669576",
+        "name": "使用头条素材的落地页",
+        "status": "2",
+        "thumbnail": "https://p6-orange.byteorge.com/img/ad-tetris-site/screenshot/1c7df7dfb82b2e936166f48809a6ad34~noop.jpeg"
+      },
+      {
+        "site_id": "7034020800576110623",
+        "name": "使用头条素材的落地页",
+        "status": "2",
+        "thumbnail": "https://p6-orange.byteorge.com/img/ad-tetris-site/screenshot/1c7df7dfb82b2e936166f48809a6ad34~noop.jpeg"
+      },
+      {
+        "site_id": "7031851387529592862",
+        "name": "使用线上落地页的站点",
+        "status": "2",
+        "thumbnail": "https://p6-orange.byteorge.com/img/ad-tetris-site/screenshot/1c7df7dfb82b2e936166f48809a6ad34~noop.jpeg"
+      },
+      {
+        "site_id": "7031819867759558664",
+        "name": "使用图片，不使用模块背景",
+        "status": "2",
+        "thumbnail": "https://p9-orange.byteorge.com/img/ad-tetris-site/screenshot/80a1727dce0d7791b93753205fb22298~noop.jpeg"
+      }
+    ],
+    "page_info": {
+      "page": 1,
+      "page_size": 15,
+      "total_number": 13,
+      "total_page": 1
+    }
+  }
+}
